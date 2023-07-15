@@ -57,11 +57,17 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding-bottom: 0;
+    align-items: center;
+
 }
 .img{
     /* width: 100%; */
-    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
     padding-bottom: opx;
+    justify-content: center;
+    text-decoration: underline;
 }
 .flower2 {
     /* background-color: pink; */
@@ -82,9 +88,7 @@
         height: 538px;
         border-radius: 300px 300px 0px 0px;
         background: rgba(71, 125, 17, 0.15);
-}
-.img{
-    text-decoration: underline;
+        padding-bottom: 0px;
 }
 .section2{
     background-color:lightgray;
